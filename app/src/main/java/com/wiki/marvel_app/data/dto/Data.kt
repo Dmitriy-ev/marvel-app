@@ -10,7 +10,7 @@ data class Data(
     @SerializedName("offset")
     val offset: Int, // 0
     @SerializedName("results")
-    val results: List<Result>,
+    val results: ArrayList<Result>,
     @SerializedName("total")
     val total: Int // 1
 )

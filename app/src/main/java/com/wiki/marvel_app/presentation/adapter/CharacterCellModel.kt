@@ -1,6 +1,8 @@
 package com.wiki.marvel_app.presentation.adapter
 
-data class CharacterModel(
+import com.wiki.marvel_app.domain.model.Character
+
+data class CharacterCellModel(
     val id: Int,
     val name: String,
     val description: String,
